@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" parallel="tests" thread-count="2">-->
+<!--    <test name="Test01">-->
+<!--        <parameter name="Browser" value="Firefox" />-->
+<!--        <classes>-->
+<!--            <class name="lessons.TestCrossBrowser"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Test02">-->
+<!--        <parameter name="Browser" value="Chrome" />-->
+<!--        <classes>-->
+<!--            <class name="lessons.TestCrossBrowser"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<suite name="Suite">
+<test name="Test01">
+    <classes>
+        <class name="testSuites.Test_Loginpage"/>
+        <class name="testSuites.Test_uploadfile"/>
+    </classes>
+</test>
+</suite>
